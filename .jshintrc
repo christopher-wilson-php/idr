@@ -1,0 +1,11 @@
+{
+  "browser" : true,
+  "curly"   : true,
+  "devel"   : true,
+  "es5"     : true,
+  "globals" : {
+    "require"   : false
+  },
+  "node"    : true,
+  "strict"  : false
+}

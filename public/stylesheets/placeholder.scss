@@ -1,0 +1,37 @@
+@import "config";
+@import "../bower_components/foundation/scss/foundation/settings";
+@import "../bower_components/foundation/scss/foundation";
+
+a {
+  color: $white;
+  font-family: $header-font-family;
+  font-size: 2rem !important;
+  font-weight: bold;
+  line-height: 2rem;
+  text-decoration: underline;
+  vertical-align: middle;
+}
+a:hover {
+  background: transparent !important;
+  color: white;
+}
+body {
+  background: linear-gradient(to bottom right, lightblue, blueviolet);
+  width: 100%;
+}
+
+h1, h2 {
+  color: white;
+  font-family: $header-font-family;
+}
+.center-text{
+  text-align: center;
+}
+.notice {
+  background-color: $oil;
+  margin-top: 30%;
+}
+
+.fi-mail, .fi-page {
+  color: white;
+}

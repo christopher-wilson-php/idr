@@ -1,0 +1,44 @@
+@import "config";
+@import "../bower_components/foundation/scss/foundation/settings";
+@import "../bower_components/foundation/scss/foundation";
+
+
+body {
+  background: linear-gradient(to bottom right, lightblue, blueviolet);
+  width: 100%;
+}
+
+h1, h2 {
+  color: white;
+  font-family: $header-font-family;
+}
+.center-text{
+  text-align: center;
+}
+.container {
+  background-color: grey;
+  margin: 0 auto;
+}
+.notice {
+  background-color: $oil;
+  margin-top: 30%;
+}
+
+.fi-mail, .fi-page {
+  color: white;
+}
+
+.mail-form {
+  border-radius: 5px;
+  height: 80%;
+  margin: 5% auto;
+
+  label {
+    color: $white;
+  }
+
+  input, textarea {
+    border-radius: $input-border-radius;
+    max-height: 400px;
+  }
+}

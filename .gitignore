@@ -1,0 +1,5 @@
+/vendor
+.env
+
+tests/_output/*
+tests/_output/*
